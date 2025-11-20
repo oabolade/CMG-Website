@@ -1,6 +1,7 @@
 import './globals.css';
 import type { Metadata } from 'next';
 import { Inter, Lato } from 'next/font/google';
+import { Toaster } from '@/components/ui/toaster';
 
 const inter = Inter({ subsets: ['latin'], variable: '--font-inter' });
 const lato = Lato({
@@ -21,7 +22,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${inter.variable} ${lato.variable} font-sans`}>{children}</body>
+      <body className={`${inter.variable} ${lato.variable} font-sans`}>
+        {children}
+        <Toaster />
+      </body>
     </html>
   );
 }
