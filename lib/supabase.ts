@@ -21,7 +21,17 @@ export function getSupabaseClient() {
     return null;
   }
 
-  supabaseInstance = createClient(supabaseUrl, supabaseAnonKey);
+  supabaseInstance = createClient(supabaseUrl, supabaseAnonKey, {
+    auth: {
+      persistSession: false,
+      autoRefreshToken: false,
+    },
+    global: {
+      headers: {
+        'apikey': supabaseAnonKey,
+      },
+    },
+  });
   console.log("Supabase client created successfully");
   return supabaseInstance;
 }
