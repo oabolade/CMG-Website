@@ -43,10 +43,11 @@ export function ContactForm() {
       const supabase = getSupabaseClient();
 
       if (!supabase) {
+        console.error("Supabase client initialization failed");
         throw new Error("Unable to connect to database");
       }
 
-      const { error } = await supabase
+      const { data: insertData, error } = await supabase
         .from("contact_submissions")
         .insert([
           {
@@ -55,9 +56,15 @@ export function ContactForm() {
             phone: data.phone,
             message: data.message
           }
-        ]);
+        ])
+        .select();
 
-      if (error) throw error;
+      if (error) {
+        console.error("Supabase insert error:", error);
+        throw error;
+      }
+
+      console.log("Form submitted successfully:", insertData);
 
       toast({
         title: "Message sent successfully!",
