@@ -26,11 +26,6 @@ export function getSupabaseClient() {
       persistSession: false,
       autoRefreshToken: false,
     },
-    global: {
-      headers: {
-        'apikey': supabaseAnonKey,
-      },
-    },
   });
   console.log("Supabase client created successfully");
   return supabaseInstance;
