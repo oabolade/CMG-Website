@@ -1,32 +1,15 @@
 import { createClient, SupabaseClient } from "@supabase/supabase-js";
 
-let supabaseInstance: SupabaseClient | null = null;
+const supabaseUrl = "https://hkihjnzhmtxldkyedcci.supabase.co";
+const supabaseAnonKey = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImhraWhqbnpobXR4bGRreWVkY2NpIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjE0MzUwNzAsImV4cCI6MjA3NzAxMTA3MH0.7cWzajTXBEwma-sGW4acpTh13_S7NFUR0HWhNS8gKgw";
+
+export const supabase = createClient(supabaseUrl, supabaseAnonKey, {
+  auth: {
+    persistSession: false,
+    autoRefreshToken: false,
+  },
+});
 
 export function getSupabaseClient() {
-  if (supabaseInstance) {
-    return supabaseInstance;
-  }
-
-  const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL;
-  const supabaseAnonKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY;
-
-  console.log("Initializing Supabase client...");
-  console.log("URL:", supabaseUrl);
-  console.log("Key exists:", !!supabaseAnonKey);
-
-  if (!supabaseUrl || !supabaseAnonKey) {
-    console.error("Supabase environment variables are missing");
-    console.error("URL:", supabaseUrl);
-    console.error("Key:", supabaseAnonKey);
-    return null;
-  }
-
-  supabaseInstance = createClient(supabaseUrl, supabaseAnonKey, {
-    auth: {
-      persistSession: false,
-      autoRefreshToken: false,
-    },
-  });
-  console.log("Supabase client created successfully");
-  return supabaseInstance;
+  return supabase;
 }
