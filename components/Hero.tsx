@@ -79,7 +79,7 @@ export function Hero({ onNavigateToContact }: HeroProps) {
               transition={{ duration: 0.6, delay: 0.2 }}
               className="text-3xl sm:text-4xl lg:text-6xl font-bold leading-tight text-white mb-6"
             >
-              Mobile Family Practice & Advanced Wound Care
+              Mobile Primary Care & Advanced Wound Care
             </motion.h2>
 
             <motion.p
@@ -88,7 +88,7 @@ export function Hero({ onNavigateToContact }: HeroProps) {
               transition={{ duration: 0.6, delay: 0.4 }}
               className="text-lg sm:text-xl text-white/95 leading-relaxed max-w-3xl mx-auto mb-10"
             >
-              Bringing high quality and compassionate mobile family practice and advanced wound care services to patients in assisted living communities and your home. We combine modern telehealth technology with in-person visits to ensure continuity, convenience, and compassionate care for every patient.
+              Bringing comprehensive primary care and specialized wound management to your home and assisted living communities. We deliver compassionate, personalized healthcare through convenient mobile visits and modern telehealth technology.
             </motion.p>
 
             <motion.div
