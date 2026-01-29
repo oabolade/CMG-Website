@@ -32,8 +32,8 @@ const services = [
   },
   {
     icon: HeartPulse,
-    title: "Chronic Disease Management",
-    description: "Comprehensive ongoing care for COPD, hypertension, diabetes, and other chronic conditions."
+    title: "Mental Health Services",
+    description: "Compassionate mental health support and psychiatric care for improved emotional wellbeing and quality of life."
   }
 ];
 

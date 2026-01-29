@@ -22,8 +22,8 @@ const services = [
   },
   {
     icon: HeartPulse,
-    title: "Chronic Disease Management",
-    description: "Comprehensive ongoing care for COPD, hypertension, diabetes, and other chronic conditions to keep residents healthy and reduce hospital visits."
+    title: "Mental Health Services",
+    description: "Compassionate psychiatric care and mental health support to improve emotional wellbeing and quality of life for all patients."
   },
   {
     icon: Pill,

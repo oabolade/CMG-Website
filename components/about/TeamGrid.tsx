@@ -7,52 +7,28 @@ import { useState } from "react";
 
 const teamMembers = [
   {
-    name: "Dr. Sarah Mitchell",
-    title: "Medical Director",
-    credentials: "MD, FACS, CWS",
-    bio: "Board-certified surgeon with 15+ years specializing in advanced wound care and diabetic foot management.",
+    name: "Victoria Aroworade",
+    title: "Advanced Wound Care Specialist",
+    credentials: "FNP, AGACNP-BC, WCS-C",
+    bio: "Experienced nurse practitioner specializing in advanced wound care and comprehensive acute care management.",
     photo: "https://images.pexels.com/photos/5215024/pexels-photo-5215024.jpeg?auto=compress&cs=tinysrgb&w=400",
-    motto: "Healing is not just science—it's an art of compassion."
+    motto: "Dedicated to healing and compassionate patient-centered care."
   },
   {
-    name: "Michael Chen",
-    title: "Senior Wound Care Specialist",
-    credentials: "RN, CWCN, WCC",
-    bio: "Certified wound care nurse with expertise in chronic wound management and patient education.",
+    name: "Ibukun Akinsola",
+    title: "Primary Care & Wound Care Specialist",
+    credentials: "FNP-C",
+    bio: "Family nurse practitioner with dual expertise in primary care and specialized wound care management.",
     photo: "https://images.pexels.com/photos/5452293/pexels-photo-5452293.jpeg?auto=compress&cs=tinysrgb&w=400",
-    motto: "Every patient deserves personalized care and genuine respect."
+    motto: "Providing personalized care that makes a difference."
   },
   {
-    name: "Dr. Emily Rodriguez",
-    title: "Vascular Specialist",
-    credentials: "DO, RPVI, FACOI",
-    bio: "Specialist in vascular medicine focusing on circulation-related wound complications.",
+    name: "Patience Okpala",
+    title: "Psychiatric Mental Health Specialist",
+    credentials: "PMHNP-BC",
+    bio: "Board-certified psychiatric mental health nurse practitioner dedicated to holistic mental wellness and patient support.",
     photo: "https://images.pexels.com/photos/4173239/pexels-photo-4173239.jpeg?auto=compress&cs=tinysrgb&w=400",
-    motto: "Understanding the root cause leads to lasting healing."
-  },
-  {
-    name: "James Thompson",
-    title: "Physical Therapy Lead",
-    credentials: "DPT, CWS, CLT",
-    bio: "Physical therapist specializing in mobility restoration and wound prevention strategies.",
-    photo: "https://images.pexels.com/photos/5452201/pexels-photo-5452201.jpeg?auto=compress&cs=tinysrgb&w=400",
-    motto: "Movement is medicine—let's get you back on your feet."
-  },
-  {
-    name: "Dr. Aisha Patel",
-    title: "Infectious Disease Consultant",
-    credentials: "MD, FIDSA",
-    bio: "Expert in managing complex wound infections and antimicrobial stewardship.",
-    photo: "https://images.pexels.com/photos/5327585/pexels-photo-5327585.jpeg?auto=compress&cs=tinysrgb&w=400",
-    motto: "Precision in treatment, compassion in care."
-  },
-  {
-    name: "Robert Williams",
-    title: "Patient Care Coordinator",
-    credentials: "BSN, RN, CCM",
-    bio: "Dedicated to ensuring seamless care coordination and patient advocacy.",
-    photo: "https://images.pexels.com/photos/5452274/pexels-photo-5452274.jpeg?auto=compress&cs=tinysrgb&w=400",
-    motto: "Your journey to healing is my priority."
+    motto: "Mental health is health—treating the whole person."
   }
 ];
 
