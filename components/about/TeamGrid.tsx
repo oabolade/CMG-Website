@@ -11,24 +11,24 @@ const teamMembers = [
     title: "Advanced Wound Care Specialist",
     credentials: "FNP, AGACNP-BC, WCS-C",
     bio: "Experienced nurse practitioner specializing in advanced wound care and comprehensive acute care management.",
-    photo: "https://images.pexels.com/photos/5215024/pexels-photo-5215024.jpeg?auto=compress&cs=tinysrgb&w=400",
+    photo: "/57c7fe09-6917-4495-a706-92ed76166a84.jpeg",
     motto: "Dedicated to healing and compassionate patient-centered care."
-  },
-  {
-    name: "Ibukun Akinsola",
-    title: "Primary Care & Wound Care Specialist",
-    credentials: "FNP-C",
-    bio: "Family nurse practitioner with dual expertise in primary care and specialized wound care management.",
-    photo: "https://images.pexels.com/photos/5452293/pexels-photo-5452293.jpeg?auto=compress&cs=tinysrgb&w=400",
-    motto: "Providing personalized care that makes a difference."
   },
   {
     name: "Patience Okpala",
     title: "Psychiatric Mental Health Specialist",
     credentials: "PMHNP-BC",
     bio: "Board-certified psychiatric mental health nurse practitioner dedicated to holistic mental wellness and patient support.",
-    photo: "https://images.pexels.com/photos/4173239/pexels-photo-4173239.jpeg?auto=compress&cs=tinysrgb&w=400",
+    photo: "/85f6415c-83a0-444f-a5cd-dd12ed0ee3c4.jpeg",
     motto: "Mental health is health—treating the whole person."
+  },
+  {
+    name: "Ibukun Akinsola",
+    title: "Primary Care & Wound Care Specialist",
+    credentials: "FNP-C",
+    bio: "Family nurse practitioner with dual expertise in primary care and specialized wound care management.",
+    photo: "/b69d7970-ac7f-4862-b903-150ca52623a4.jpeg",
+    motto: "Providing personalized care that makes a difference."
   }
 ];
 
