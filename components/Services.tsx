@@ -17,7 +17,7 @@ const services = [
   },
   {
     icon: Bandage,
-    title: "Wound Care Management / Advanced Wound Care",
+    title: "Wound Care Management",
     description: "Specialized mobile wound evaluation and treatment brought directly to your location to promote faster healing and complication prevention."
   },
   {
