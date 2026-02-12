@@ -7,7 +7,7 @@ import { Heart, Home, Video, HeartPulse, Stethoscope } from "lucide-react";
 const services = [
   {
     icon: Home,
-    title: "Mobile primary care.",
+    title: "Mobile Primary Care",
     description: "Personalized medical care brought directly to your home and place of residence, eliminating transportation needs and ensuring continuity of care."
   },
   {
@@ -17,12 +17,12 @@ const services = [
   },
   {
     icon: Heart,
-    title: "Wound care management / Advanced Wound Care",
+    title: "Wound Care Management",
     description: "Specialized mobile wound evaluation and treatment brought directly to your location, designed to promote faster healing and complication prevention using evidence-based protocols."
   },
   {
     icon: HeartPulse,
-    title: "Mental health services",
+    title: "Mental Health Services",
     description: "Compassionate psychiatric care and mental health support delivered via telehealth to improve emotional wellbeing and quality of life for all patients from the comfort of your home."
   },
   {
