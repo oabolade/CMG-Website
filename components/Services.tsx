@@ -2,38 +2,33 @@
 
 import { motion } from "framer-motion";
 import { Card, CardContent } from "@/components/ui/card";
-import { Bandage, Scissors, Activity, Home, Stethoscope, Pill, Video, HeartPulse } from "lucide-react";
+import { Bandage, Home, Video, HeartPulse, Stethoscope } from "lucide-react";
 
 const services = [
   {
-    icon: Stethoscope,
-    title: "Family Medicine & Primary Care",
-    description: "Ongoing medical care for chronic conditions (COPD, HTN, DM etc), annual wellness exams, vaccinations and wellness screenings, and preventative health management delivered on site."
-  },
-  {
     icon: Home,
     title: "Mobile Primary Care",
-    description: "Personalized medical care brought directly to assisted living communities and your home, eliminating transportation needs."
+    description: "Personalized medical care brought directly to your home and place of residence, eliminating transportation needs and ensuring continuity of care."
+  },
+  {
+    icon: Stethoscope,
+    title: "Family Medicine",
+    description: "Comprehensive primary care services delivered through mobile home visits and virtual consultations for individuals and families of all ages."
   },
   {
     icon: Bandage,
-    title: "Advanced Wound Care",
-    description: "Specialized wound evaluation and treatment designed to promote faster healing and complication prevention."
-  },
-  {
-    icon: Pill,
-    title: "Medication Management",
-    description: "Safe and effective medication review, reconciliation and coordination with patient, caregivers, and pharmacies."
-  },
-  {
-    icon: Video,
-    title: "Telehealth Visits",
-    description: "Convenient virtual consultations combining modern technology with personalized care."
+    title: "Wound Care Management / Advanced Wound Care",
+    description: "Specialized mobile wound evaluation and treatment brought directly to your location to promote faster healing and complication prevention."
   },
   {
     icon: HeartPulse,
     title: "Mental Health Services",
-    description: "Compassionate mental health support and psychiatric care for improved emotional wellbeing and quality of life."
+    description: "Compassionate mental health support and psychiatric care delivered via telehealth for improved emotional wellbeing and quality of life."
+  },
+  {
+    icon: Video,
+    title: "Telemedicine",
+    description: "Convenient virtual healthcare consultations using modern telehealth technology without leaving home."
   }
 ];
 
@@ -52,7 +47,7 @@ export function Services() {
             Our Services
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Personalized medical care focusing on family medicine, chronic disease management, preventive health, medication oversight and expert wound care
+            Personalized mobile and telehealth medical care delivered directly to your home, focusing on family medicine, chronic disease management, preventive health, and expert wound care
           </p>
         </motion.div>
 

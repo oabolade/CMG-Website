@@ -9,25 +9,25 @@ const processSteps = [
     icon: Calendar,
     step: "01",
     title: "Schedule & Assess",
-    description: "Contact us to schedule your initial consultation. Our team will conduct a thorough assessment of your wound care needs, medical history, and treatment goals to create a personalized care plan."
+    description: "Contact us to schedule your initial mobile or telehealth consultation. Our team will conduct a thorough assessment of your care needs, medical history, and treatment goals to create a personalized care plan."
   },
   {
     icon: Home,
     step: "02",
-    title: "Visit at Home",
-    description: "Our licensed professionals arrive at your preferred location—home, assisted living, or care facility. We bring all necessary medical equipment and supplies to deliver expert wound care in your comfortable environment."
+    title: "Mobile Visit or Virtual Consultation",
+    description: "Our licensed professionals arrive at your preferred location—home, assisted living, or care facility—or connect with you via secure telehealth. We bring all necessary medical equipment for in-person visits or provide expert guidance virtually."
   },
   {
     icon: RefreshCw,
     step: "03",
-    title: "Ongoing Visits",
-    description: "We schedule regular follow-up visits based on your wound's healing progress. Each visit includes wound assessment, dressing changes, treatment adjustments, and documentation of improvements."
+    title: "Ongoing Mobile & Virtual Care",
+    description: "We schedule regular follow-up visits (in-person or virtual) based on your healing progress and care needs. Each visit includes thorough assessment, treatment adjustments, and documentation of improvements."
   },
   {
     icon: BookOpen,
     step: "04",
-    title: "Continuous Monitoring and Education",
-    description: "Throughout your healing journey, we provide continuous monitoring, update your care plan as needed, and educate you and your caregivers on proper wound care techniques and prevention strategies."
+    title: "Continuous Remote Monitoring and Education",
+    description: "Throughout your care journey, we provide continuous monitoring through mobile visits and telehealth check-ins, update your care plan as needed, and educate you and your caregivers on proper care techniques."
   }
 ];
 
@@ -46,7 +46,7 @@ export function OurProcess() {
             Our Process: Simplified For You
           </h2>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
-            A straightforward approach to delivering exceptional wound care from start to finish
+            A straightforward approach to delivering exceptional mobile and telehealth care from start to finish
           </p>
         </motion.div>
 

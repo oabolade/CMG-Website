@@ -25,7 +25,7 @@ export function Footer({ onNavigate }: FooterProps) {
               </div>
             </div>
             <p className="text-sm text-muted-foreground leading-relaxed mb-6">
-              Excellence in mobile family practice and advanced wound care with compassion and expertise.
+              Excellence in mobile home visits and telehealth services for family practice and advanced wound care with compassion and expertise.
             </p>
             <div className="flex items-center gap-4">
               <a
@@ -116,12 +116,11 @@ export function Footer({ onNavigate }: FooterProps) {
           <div>
             <h3 className="font-bold text-base mb-5 text-foreground">Our Services</h3>
             <ul className="space-y-3 text-sm">
-              <li className="text-muted-foreground">Family Medicine & Primary Care</li>
-              <li className="text-muted-foreground">Mobile Primary Care</li>
-              <li className="text-muted-foreground">Advanced Wound Care</li>
-              <li className="text-muted-foreground">Chronic Disease Management</li>
-              <li className="text-muted-foreground">Medication Management</li>
-              <li className="text-muted-foreground">Telehealth Visits</li>
+              <li className="text-muted-foreground">Mobile Primary Care (Home Visits)</li>
+              <li className="text-muted-foreground">Family Medicine (Mobile & Virtual)</li>
+              <li className="text-muted-foreground">Advanced Wound Care (Mobile)</li>
+              <li className="text-muted-foreground">Mental Health Services (Telehealth)</li>
+              <li className="text-muted-foreground">Telemedicine Consultations</li>
             </ul>
           </div>
 

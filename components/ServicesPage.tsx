@@ -3,6 +3,8 @@
 import { ServicesHero } from "./services/ServicesHero";
 import { ServiceCards } from "./services/ServiceCards";
 import { ConditionsTreated } from "./services/ConditionsTreated";
+import { WhoWeServe } from "./services/WhoWeServe";
+import { AcceptingPatients } from "./services/AcceptingPatients";
 import { OurProcess } from "./services/OurProcess";
 import { ContactCTA } from "./ContactCTA";
 
@@ -18,7 +20,9 @@ export function ServicesPage({ onNavigateToContact }: ServicesPageProps) {
       <div className="h-px bg-border" style={{ backgroundColor: "#e5e7eb" }} />
       <ConditionsTreated />
       <div className="h-px bg-border" style={{ backgroundColor: "#e5e7eb" }} />
-      <OurProcess />
+      <WhoWeServe />
+      <div className="h-px bg-border" style={{ backgroundColor: "#e5e7eb" }} />
+      <AcceptingPatients />
       <ContactCTA onNavigateToContact={onNavigateToContact} />
     </div>
   );

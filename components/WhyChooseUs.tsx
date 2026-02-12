@@ -8,27 +8,27 @@ const features = [
   {
     icon: Award,
     title: "Experienced & Licensed Providers",
-    description: "Our team consists of board-certified specialists with expertise in family medicine and advanced wound care"
+    description: "Our team consists of board-certified specialists delivering expert mobile and telehealth care with expertise in family medicine and advanced wound care"
   },
   {
     icon: Users,
-    title: "On-Site Visits (No Transportation Needed)",
-    description: "We bring care directly to you at assisted living facilities or your home, eliminating transportation barriers"
+    title: "Mobile & Virtual Visits (No Transportation Needed)",
+    description: "We bring care directly to your home, assisted living facility, or connect via secure telehealth, eliminating all transportation barriers"
   },
   {
     icon: Hospital,
     title: "Reduced ER & Hospital Visits",
-    description: "Consistent on-site healthcare helps prevent unnecessary hospitalizations and emergency room visits"
+    description: "Consistent mobile and virtual healthcare helps prevent unnecessary hospitalizations and emergency room visits through proactive at-home care"
   },
   {
     icon: HeartHandshake,
-    title: "Personalized Care",
-    description: "Individualized treatment plans tailored to your specific health needs and circumstances"
+    title: "Personalized Care at Home",
+    description: "Individualized treatment plans delivered in the comfort of your home or via telehealth, tailored to your specific health needs"
   },
   {
     icon: UserCheck,
     title: "Team Collaboration",
-    description: "We work closely with family members, facility staff, and specialists to ensure comprehensive care coordination"
+    description: "We coordinate care remotely and on-site with family members, facility staff, and specialists to ensure comprehensive support"
   }
 ];
 
@@ -47,7 +47,7 @@ export function WhyChooseUs() {
             Why Choose Crown's Medical Group
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Excellence in mobile family practice and advanced wound care backed by experience, technology, and genuine compassion
+            Excellence in mobile home visits and telehealth services for family practice and advanced wound care, backed by experience, technology, and genuine compassion
           </p>
         </motion.div>
 

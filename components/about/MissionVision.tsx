@@ -41,8 +41,8 @@ export function MissionVision() {
                   </h3>
                   <p className="text-base text-muted-foreground leading-relaxed">
                     To bring high quality and compassionate mobile family practice and advanced wound care services
-                    to patients in assisted living communities and your home. Our goal is simple: to keep residents healthy,
-                    reduce unnecessary hospital visits, and improve quality of life through consistent on-site healthcare.
+                    directly to patients' homes, assisted living communities, and via telehealth. Our goal is simple: to keep patients healthy,
+                    reduce unnecessary hospital visits, and improve quality of life through consistent mobile and virtual healthcare delivered where you are.
                   </p>
                 </div>
               </div>
@@ -56,9 +56,8 @@ export function MissionVision() {
                     Our Vision
                   </h3>
                   <p className="text-base text-muted-foreground leading-relaxed">
-                    To be the most trusted provider of mobile family practice and advanced wound care, ensuring every patient
-                    receives expert treatment, dignity and comfort wherever they are. We combine modern telehealth technology
-                    with in-person visits to ensure continuity, convenience and compassionate care for every patient.
+                    To be the most trusted provider of mobile and telehealth family practice and advanced wound care, ensuring every patient
+                    receives expert treatment, dignity and comfort in their home or via secure virtual consultations. We exclusively deliver care through mobile home visits and telehealth technology to ensure continuity, convenience and compassionate care without requiring patients to travel.
                   </p>
                 </div>
               </div>
@@ -72,10 +71,10 @@ export function MissionVision() {
                     Our Approach
                   </h3>
                   <p className="text-base text-muted-foreground leading-relaxed">
-                    We deliver personalized medical care focusing on family medicine, chronic disease management,
-                    preventive health, medication oversight and expert wound care. Our team combines evidence-based medicine
-                    with genuine compassion, ensuring that every patient feels heard, respected, and empowered throughout
-                    their healthcare journey.
+                    We deliver personalized medical care through mobile home visits and telehealth consultations, focusing on family medicine, chronic disease management,
+                    preventive health, and expert wound care. Our team combines evidence-based medicine
+                    with genuine compassion, bringing care directly to you and ensuring that every patient feels heard, respected, and empowered throughout
+                    their healthcare journey—all from the comfort of home.
                   </p>
                 </div>
               </div>

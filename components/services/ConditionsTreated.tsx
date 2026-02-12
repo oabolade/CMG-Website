@@ -2,41 +2,52 @@
 
 import { motion } from "framer-motion";
 import { Card, CardContent } from "@/components/ui/card";
-import { Badge } from "@/components/ui/badge";
 import { CheckCircle2 } from "lucide-react";
 
 const conditions = [
   {
+    name: "Mild-moderate depression",
+    description: "Evidence-based treatment and support via telehealth for individuals experiencing depressive symptoms, focusing on improving mood and daily functioning."
+  },
+  {
+    name: "Anxiety Disorders",
+    description: "Comprehensive virtual care for various anxiety conditions including generalized anxiety, social anxiety, and panic disorders."
+  },
+  {
+    name: "Insomnia",
+    description: "Specialized assessment and treatment via telehealth for sleep difficulties, helping patients achieve restful and restorative sleep."
+  },
+  {
+    name: "Adjustment disorders",
+    description: "Virtual support for individuals experiencing difficulty coping with significant life changes or stressful events."
+  },
+  {
+    name: "Dementia-related behaviors",
+    description: "Compassionate in-home and virtual management of behavioral and psychological symptoms associated with dementia and cognitive decline."
+  },
+  {
+    name: "Geriatric mood disorders",
+    description: "Specialized psychiatric care via telehealth addressing depression, anxiety, and mood disturbances in older adults."
+  },
+  {
+    name: "Psych follow-up via Telemedicine",
+    description: "Convenient virtual psychiatric consultations for ongoing mental health monitoring and medication management from home."
+  },
+  {
     name: "Pressure Ulcers (Stage I–IV)",
-    description: "Comprehensive treatment for all stages of pressure injuries with specialized wound care protocols."
+    description: "Comprehensive mobile wound care treatment for all stages of pressure injuries with specialized protocols delivered at your location."
   },
   {
     name: "Diabetic Wounds",
-    description: "Expert management of diabetic foot ulcers and neuropathic wounds with advanced healing therapies."
-  },
-  {
-    name: "Post-operative Incisions",
-    description: "Professional monitoring and care of surgical wounds to ensure proper healing and prevent infection."
-  },
-  {
-    name: "Arterial & Venous Leg Ulcers",
-    description: "Specialized treatment for vascular ulcers addressing underlying circulatory issues."
-  },
-  {
-    name: "Traumatic Lacerations",
-    description: "Expert care for cuts, tears, and traumatic injuries requiring wound management."
+    description: "Expert in-home management of diabetic foot ulcers and neuropathic wounds with advanced healing therapies."
   },
   {
     name: "Burns",
-    description: "Treatment and rehabilitation for thermal, chemical, and electrical burn injuries."
+    description: "Mobile treatment and rehabilitation for thermal, chemical, and electrical burn injuries in the comfort of your home."
   },
   {
-    name: "Surgical Dehiscence",
-    description: "Management of wound separation following surgery with advanced closure techniques."
-  },
-  {
-    name: "Chronic Non-Healing Wounds",
-    description: "Specialized care for wounds that have not responded to conventional treatment approaches."
+    name: "Traumatic Lacerations",
+    description: "Expert mobile care for cuts, tears, and traumatic injuries requiring wound management at your location."
   }
 ];
 
@@ -52,10 +63,10 @@ export function ConditionsTreated() {
           className="text-center mb-12 lg:mb-16"
         >
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-foreground mb-4">
-            Conditions We Treat
+            Conditions we treat
           </h2>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
-            Our expert team provides specialized care for a wide range of wound types and complications
+            Our expert team provides compassionate care through mobile home visits and telehealth for a wide range of mental health and wound care conditions
           </p>
         </motion.div>
 
@@ -98,7 +109,7 @@ export function ConditionsTreated() {
             className="mt-10 text-center"
           >
             <p className="text-base text-muted-foreground">
-              Don't see your condition listed? <span className="text-primary font-semibold">Contact us</span> to discuss your specific wound care needs.
+              Don't see your condition listed? <span className="text-primary font-semibold">Contact us</span> to discuss your specific care needs and how we can help through our mobile or telehealth services.
             </p>
           </motion.div>
         </div>

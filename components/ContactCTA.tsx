@@ -27,11 +27,10 @@ export function ContactCTA({ onNavigateToContact }: ContactCTAProps) {
           className="max-w-4xl mx-auto text-center"
         >
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-6 text-white leading-tight">
-            Ready to Begin Your Healing Journey?
+            Ready to Begin Your Care Journey?
           </h2>
           <p className="text-lg sm:text-xl text-white/90 mb-10 max-w-2xl mx-auto leading-relaxed">
-            Take the first step towards recovery. Our expert team is ready to
-            provide the compassionate, personalized care you deserve.
+            Take the first step towards better health. Our expert team is ready to provide compassionate, personalized care through mobile home visits or convenient telehealth consultations.
           </p>
           <motion.div
             initial={{ opacity: 0, y: 20 }}

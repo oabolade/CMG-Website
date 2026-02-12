@@ -19,10 +19,10 @@ export function ServicesHero() {
             <div className="h-1 w-12 bg-primary mt-2 rounded-full mx-auto" />
           </div>
           <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-foreground mb-6">
-            Our Specialized Care Services
+            Services.
           </h1>
           <p className="text-lg text-muted-foreground leading-relaxed">
-            We provide tailored wound care solutions delivered by licensed professionals.
+            Comprehensive mobile and telehealth medical care delivered by licensed professionals directly to your home or via virtual consultations.
           </p>
         </motion.div>
       </div>

@@ -2,38 +2,33 @@
 
 import { motion } from "framer-motion";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
-import { Heart, Stethoscope, Activity, Users, Shield, Home, Pill, Video, HeartPulse } from "lucide-react";
+import { Heart, Home, Video, HeartPulse, Stethoscope } from "lucide-react";
 
 const services = [
   {
-    icon: Stethoscope,
-    title: "Family Medicine & Primary Care",
-    description: "Ongoing medical care for chronic conditions (COPD, HTN, DM etc), annual wellness exams, vaccinations and wellness screenings, and preventative health management delivered on site."
+    icon: Home,
+    title: "Mobile primary care.",
+    description: "Personalized medical care brought directly to your home and place of residence, eliminating transportation needs and ensuring continuity of care."
   },
   {
-    icon: Home,
-    title: "Mobile Primary Care",
-    description: "Personalized medical care brought directly to assisted living communities and your home, eliminating transportation needs and ensuring continuity of care."
+    icon: Stethoscope,
+    title: "Family Medicine",
+    description: "Comprehensive primary care services delivered through mobile home visits and virtual consultations for individuals and families of all ages."
   },
   {
     icon: Heart,
-    title: "Advanced Wound Care",
-    description: "Specialized wound evaluation and treatment designed to promote faster healing and complication prevention using evidence-based protocols."
+    title: "Wound care management / Advanced Wound Care",
+    description: "Specialized mobile wound evaluation and treatment brought directly to your location, designed to promote faster healing and complication prevention using evidence-based protocols."
   },
   {
     icon: HeartPulse,
-    title: "Mental Health Services",
-    description: "Compassionate psychiatric care and mental health support to improve emotional wellbeing and quality of life for all patients."
-  },
-  {
-    icon: Pill,
-    title: "Medication Management",
-    description: "Safe and effective medication review, reconciliation and coordination with patient, caregivers, and pharmacies to prevent adverse drug events."
+    title: "Mental health services",
+    description: "Compassionate psychiatric care and mental health support delivered via telehealth to improve emotional wellbeing and quality of life for all patients from the comfort of your home."
   },
   {
     icon: Video,
-    title: "Telehealth Visits",
-    description: "Modern telehealth technology combined with in-person visits to ensure continuity, convenience and compassionate care for every patient."
+    title: "Telemedicine",
+    description: "Virtual healthcare consultations using modern telehealth technology to ensure continuity, convenience and compassionate care without leaving home."
   }
 ];
 
