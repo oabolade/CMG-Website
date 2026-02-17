@@ -69,7 +69,7 @@ export function Hero({ onNavigateToContact }: HeroProps) {
                 Crowns Medical Group
               </h1>
               <p className="text-lg sm:text-xl text-yellow-400 font-semibold">
-                Royal Care for Every Wound
+                Royal Care for Every Client
               </p>
             </motion.div>
 

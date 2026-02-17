@@ -2,18 +2,13 @@
 
 import { motion } from "framer-motion";
 import { Card, CardContent } from "@/components/ui/card";
-import { Bandage, Home, Video, HeartPulse, Stethoscope } from "lucide-react";
+import { Bandage, Video, HeartPulse, Stethoscope } from "lucide-react";
 
 const services = [
   {
-    icon: Home,
-    title: "Mobile Primary Care",
-    description: "Personalized medical care brought directly to your home and place of residence, eliminating transportation needs and ensuring continuity of care."
-  },
-  {
     icon: Stethoscope,
-    title: "Family Medicine",
-    description: "Comprehensive primary care services delivered through mobile home visits and virtual consultations for individuals and families of all ages."
+    title: "Family Medicine & Primary Care",
+    description: "Comprehensive primary care and family medicine delivered directly to your home or via virtual consultations, serving individuals and families of all ages while eliminating transportation barriers."
   },
   {
     icon: Bandage,
