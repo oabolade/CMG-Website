@@ -2,8 +2,7 @@
 
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
-import { Mail, Phone } from "lucide-react";
-import Image from "next/image";
+import { Mail, Phone, Crown, Plus } from "lucide-react";
 
 interface HeaderProps {
   activeTab: string;
@@ -28,15 +27,25 @@ export function Header({ activeTab, onTabChange }: HeaderProps) {
     >
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-20 sm:h-24 gap-4">
-          <div className="flex items-center space-x-3">
-            <div className="relative w-48 h-12 sm:w-64 sm:h-16">
-              <Image
-                src="/ChatGPT_Image_Feb_18,_2026,_10_07_47_AM.png"
-                alt="Crowns Medical Group - Royal Care for Every Client"
-                fill
-                className="object-contain"
-                priority
-              />
+          <div className="flex items-center gap-3">
+            {/* Icon mark */}
+            <div className="relative flex flex-col items-center w-9 shrink-0">
+              <Crown className="w-5 h-5 text-[#c9a84c] absolute -top-1 z-10" />
+              <Plus className="w-9 h-9 text-[#1e3461] mt-3" strokeWidth={3} />
+            </div>
+            {/* Wordmark */}
+            <div className="flex flex-col leading-none">
+              <div className="flex items-baseline gap-1">
+                <span className="text-lg sm:text-xl font-bold tracking-wide text-[#1e3461] font-lato">
+                  CROWNS
+                </span>
+                <span className="text-[11px] sm:text-xs font-semibold tracking-widest text-[#1e3461] font-lato">
+                  MEDICAL GROUP
+                </span>
+              </div>
+              <span className="text-[11px] sm:text-xs text-[#c9a84c] italic font-medium mt-0.5">
+                Royal Care for Every Client
+              </span>
             </div>
           </div>
 
