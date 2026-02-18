@@ -32,7 +32,7 @@ export function Header({ activeTab, onTabChange }: HeaderProps) {
             <div className="relative w-32 h-10 sm:w-40 sm:h-12">
               <Image
                 src="/CROWNS-MEDICAL-GROUP-ROYAL-CARE-1.png"
-                alt="Crowns Medical Group - Royal Care for Every Wound"
+                alt="Crowns Medical Group - Royal Care for Every Client"
                 fill
                 className="object-contain"
                 priority

@@ -18,7 +18,7 @@ export function Footer({ onNavigate }: FooterProps) {
               <div className="relative w-40 h-12">
                 <Image
                   src="/CROWNS-MEDICAL-GROUP-ROYAL-CARE-1.png"
-                  alt="Crowns Medical Group - Royal Care for Every Wound"
+                  alt="Crowns Medical Group - Royal Care for Every Client"
                   fill
                   className="object-contain object-left"
                 />

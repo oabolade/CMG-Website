@@ -11,7 +11,7 @@ const lato = Lato({
 });
 
 export const metadata: Metadata = {
-  title: 'Crowns Medical Group - Royal Care for Every Wound',
+  title: 'Crowns Medical Group - Royal Care for Every Client',
   description: 'Professional wound and injury care services. Providing compassionate, evidence-based care to help you heal faster and live better.',
 };
 
