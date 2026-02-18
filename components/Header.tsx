@@ -24,7 +24,7 @@ export function Header({ activeTab, onTabChange }: HeaderProps) {
       initial={{ y: -100 }}
       animate={{ y: 0 }}
       transition={{ duration: 0.5 }}
-      className="sticky top-0 z-50 w-full bg-white/95 backdrop-blur-sm border-b border-border shadow-sm"
+      className="sticky top-0 z-50 w-full bg-gradient-to-r from-slate-50 to-blue-50/30 backdrop-blur-sm border-b border-slate-200 shadow-sm"
     >
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-20 sm:h-24 gap-4">
