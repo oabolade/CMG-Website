@@ -29,17 +29,14 @@ export function Header({ activeTab, onTabChange }: HeaderProps) {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-20 sm:h-24 gap-4">
           <div className="flex items-center space-x-3">
-            <div className="flex flex-col">
-              <div className="relative w-32 h-10 sm:w-40 sm:h-12">
-                <Image
-                  src="/CROWNS-MEDICAL-GROUP-ROYAL-CARE-1.png"
-                  alt="Crowns Medical Group"
-                  fill
-                  className="object-contain"
-                  priority
-                />
-              </div>
-              <p className="text-xs sm:text-sm font-medium text-amber-600 mt-0.5 whitespace-nowrap">Royal Care for Every Client</p>
+            <div className="relative w-48 h-12 sm:w-64 sm:h-16">
+              <Image
+                src="/Gemini_Generated_Image_n0yd8un0yd8un0yd.png"
+                alt="Crowns Medical Group - Royal Care for Every Client"
+                fill
+                className="object-contain"
+                priority
+              />
             </div>
           </div>
 
