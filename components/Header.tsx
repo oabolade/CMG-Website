@@ -24,14 +24,14 @@ export function Header({ activeTab, onTabChange }: HeaderProps) {
       initial={{ y: -100 }}
       animate={{ y: 0 }}
       transition={{ duration: 0.5 }}
-      className="sticky top-0 z-50 w-full bg-gradient-to-r from-slate-50 to-blue-50/30 backdrop-blur-sm border-b border-slate-200 shadow-sm"
+      className="sticky top-0 z-50 w-full bg-white/95 backdrop-blur-sm border-b border-border shadow-sm"
     >
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-20 sm:h-24 gap-4">
           <div className="flex items-center space-x-3">
             <div className="relative w-48 h-12 sm:w-64 sm:h-16">
               <Image
-                src="/Gemini_Generated_Image_n0yd8un0yd8un0yd.png"
+                src="/ChatGPT_Image_Feb_18,_2026,_10_07_47_AM.png"
                 alt="Crowns Medical Group - Royal Care for Every Client"
                 fill
                 className="object-contain"
