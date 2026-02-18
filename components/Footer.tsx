@@ -1,7 +1,6 @@
 "use client";
 
-import { Heart, Facebook, Instagram, Linkedin } from "lucide-react";
-import Image from "next/image";
+import { Heart, Facebook, Instagram, Linkedin, Crown, Plus } from "lucide-react";
 import { FaXTwitter } from "react-icons/fa6";
 
 interface FooterProps {
@@ -14,14 +13,23 @@ export function Footer({ onNavigate }: FooterProps) {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-10 lg:gap-12 mb-12">
           <div className="lg:col-span-1">
-            <div className="mb-6">
-              <div className="relative w-40 h-12">
-                <Image
-                  src="/CROWNS-MEDICAL-GROUP-ROYAL-CARE-1.png"
-                  alt="Crowns Medical Group - Royal Care for Every Client"
-                  fill
-                  className="object-contain object-left"
-                />
+            <div className="mb-6 flex items-center gap-3">
+              <div className="relative flex flex-col items-center w-9 shrink-0">
+                <Crown className="w-5 h-5 text-[#c9a84c] absolute -top-1 z-10" />
+                <Plus className="w-9 h-9 text-[#1e3461] mt-3" strokeWidth={3} />
+              </div>
+              <div className="flex flex-col leading-none">
+                <div className="flex items-baseline gap-1">
+                  <span className="text-lg font-bold tracking-wide text-[#1e3461] font-lato">
+                    CROWNS
+                  </span>
+                  <span className="text-[11px] font-semibold tracking-widest text-[#1e3461] font-lato">
+                    MEDICAL GROUP
+                  </span>
+                </div>
+                <span className="text-[11px] text-[#c9a84c] italic font-medium mt-0.5">
+                  Royal Care for Every Client
+                </span>
               </div>
             </div>
             <p className="text-sm text-muted-foreground leading-relaxed mb-6">
@@ -116,8 +124,7 @@ export function Footer({ onNavigate }: FooterProps) {
           <div>
             <h3 className="font-bold text-base mb-5 text-foreground">Our Services</h3>
             <ul className="space-y-3 text-sm">
-              <li className="text-muted-foreground">Mobile Primary Care (Home Visits)</li>
-              <li className="text-muted-foreground">Family Medicine (Mobile & Virtual)</li>
+              <li className="text-muted-foreground">Family Medicine & Primary Care</li>
               <li className="text-muted-foreground">Advanced Wound Care (Mobile)</li>
               <li className="text-muted-foreground">Mental Health Services (Telehealth)</li>
               <li className="text-muted-foreground">Telemedicine Consultations</li>
